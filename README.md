@@ -20,7 +20,7 @@ Aplikasi web untuk mengelola data penjualan, di mana pengguna dapat menambah, me
 ### Cara Menggunakan:
 1. *Clone atau Download Repository*:
    ```bash
-   git clone https://github.com/username/data-penjualan.git
+   git clone https://faniierviani.github.io/faniierviani/
 
 <!--
 **faniierviani/faniierviani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
