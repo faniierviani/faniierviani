@@ -1,0 +1,66 @@
+/* Header dengan gradasi */
+header {
+    background: linear-gradient(90deg, #4CAF50, #45a049);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Gaya untuk tabel */
+  table td, table th {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Gaya khusus untuk tombol aksi */
+  button.edit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.2rem;
+  }
+  
+  button.delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.2rem;
+  }
+  
+  /* Hover efek */
+  button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+    transition: all 0.2s;
+  }
+  
+  /* Efek fade-in */
+  .fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    form .form-control {
+      margin-bottom: 0.5rem;
+    }
+  }
