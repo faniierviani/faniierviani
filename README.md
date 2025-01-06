@@ -22,17 +22,16 @@ Aplikasi web untuk mengelola data penjualan, di mana pengguna dapat menambah, me
    ```bash
    git clone https://faniierviani.github.io/faniierviani/
 
-<!--
-**faniierviani/faniierviani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+hasil kode coverage
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+-----------|---------|----------|---------|---------|-------------------
+File       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+-----------|---------|----------|---------|---------|-------------------
+All files  |    12.5 |      100 |   33.33 |    12.5 | 
+ script.js |    12.5 |      100 |   33.33 |    12.5 | 6-15
+-----------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.573 s, estimated 1 s
+Ran all test suites.
