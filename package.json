@@ -1,0 +1,23 @@
+{
+  "name": "data-penjualan",
+  "version": "1.0.0",
+  "description": "Proyek aplikasi sederhana untuk menampilkan, mengedit, dan menghitung data penjualan.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "fani erviani",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  }
+}

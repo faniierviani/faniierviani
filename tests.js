@@ -2,15 +2,15 @@
 function test(description, callback) {
     try {
       callback();
-      console.log(✔️ ${description});
+      console.log('✔️ ${description}');
     } catch (error) {
-      console.error(❌ ${description});
+      console.error('❌ ${description}');
       console.error(error);
     }
   }
   
   // Dummy data untuk pengujian
-  penjualan = []; // Reset data untuk setiap pengujian
+  let penjualan = []; // Reset data untuk setiap pengujian
   
   // Pengujian tambah data
   test("Tambah data penjualan", () => {
